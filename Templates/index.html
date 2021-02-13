@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block header %}
+<link rel="stylesheet" href={{ url_for('static', filename='css/home.css') }}>
+{% endblock %}
+{% block title %}VANS Official{% endblock %}
+{% block content %}
+
+<div class="jumbotron">
+  <h1 class="display-4">VANS Official</h1>
+  <p class="lead">Vans is an American manufacturer of skateboarding shoes and related apparel,.</p>
+  <hr class="my-4">
+  <p>Design by : Chandra Mega Putra&copy;</p>
+  <p class="lead">
+    <a class="btn btn-outline-info btn-lg" href="/contact" role="button">Contact as</a>
+  </p>
+</div>
+{% endblock %}
